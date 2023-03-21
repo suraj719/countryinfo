@@ -1,0 +1,46 @@
+
+body{
+    background-color: rgb(128, 106, 70);
+}
+.container {
+    width:300px;
+    height:250px;
+    background-color: white;
+    border-radius: 20px;
+    padding:20px;
+    margin:12% 10% 9% 35%;
+}
+.container:hover {
+    box-shadow: 2px 5px 6px 6px #17c9c0;
+}
+.countrydiv {
+    margin-top:25%;
+    margin-left:30px;
+}
+.searchbtn {
+    border-radius: 30px;
+    background-color: black;
+    color:white;
+    padding:10px;
+    margin-left:10px;
+    width: 70px;
+}
+.searchbtn:hover {
+    background-color: #0dcaf0;
+    color:black;
+}
+#cnameinp {
+    height: 30px;
+    border:none;
+    border-bottom:3px solid black;
+    font-size:14px;
+}
+
+@media screen and (max-width:500px) {
+    .container {
+        margin:30% 10% 10% 5%;
+    }
+    .searchbtn {
+        margin-left: 30px;
+    }
+}
